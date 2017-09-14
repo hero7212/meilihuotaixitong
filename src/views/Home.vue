@@ -5,9 +5,9 @@
 				{{collapsed?'':sysName}}
 			</el-col>
 			<el-col :span="10">
-				<div class="tools" @click.prevent="collapse">
+				<!-- <div class="tools" @click.prevent="collapse">
 					<i class="fa fa-align-justify"></i>
-				</div>
+				</div> -->
 			</el-col>
 			<el-col :span="4" class="userinfo">
 				<el-dropdown trigger="hover">
@@ -75,7 +75,7 @@
 	export default {
 		data() {
 			return {
-				sysName:'VUEADMIN',
+				sysName:'有魅力的男人做的',
 				collapsed:false,
 				sysUserName: '',
 				sysUserAvatar: '',

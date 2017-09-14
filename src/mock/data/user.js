@@ -4,8 +4,8 @@ const LoginUsers = [
     id: 1,
     username: 'admin',
     password: '123456',
-    avatar: 'https://raw.githubusercontent.com/taylorchen709/markdown-images/master/vueadmin/user.png',
-    name: '张某某'
+    avatar: 'https://avatars3.githubusercontent.com/u/16949560?v=4&u=fa14adf54de1be57b3251ec3f1f224f12f81459e&s=400',
+    name: '文帅'
   }
 ];
 
