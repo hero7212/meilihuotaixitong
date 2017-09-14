@@ -18,7 +18,7 @@ Vue.use(ElementUI)
 Vue.use(VueRouter)
 Vue.use(Vuex)
 
-//NProgress.configure({ showSpinner: false });
+// NProgress.configure({ showSpinner: false });
 
 const router = new VueRouter({
   routes
@@ -37,9 +37,9 @@ router.beforeEach((to, from, next) => {
   }
 })
 
-//router.afterEach(transition => {
-//NProgress.done();
-//});
+// router.afterEach(transition => {
+// NProgress.done();
+// });
 
 new Vue({
   //el: '#app',
